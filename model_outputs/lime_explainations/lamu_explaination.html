@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divUA7WXE0C5ED3NUB"></div>
+        <div class="lime top_div" id="top_divSP2XW6UKR50HVP7"></div>
         
         <script>
-        var top_div = d3.select('#top_divUA7WXE0C5ED3NUB').classed('lime top_div', true);
+        var top_div = d3.select('#top_divSP2XW6UKR50HVP7').classed('lime top_div', true);
         
         
                     var pp_div = top_div.append('div')
                                         .classed('lime predicted_value', true);
                     var pp_svg = pp_div.append('svg').style('width', '100%');
-                    var pp = new lime.PredictedValue(pp_svg, 3189.5765595880894, 1032.877133046818, 7140.517035729479);
+                    var pp = new lime.PredictedValue(pp_svg, 4364.613002248888, 954.072210955051, 7089.844092009606);
                     
         var exp_div;
             var exp = new lime.Explanation(["negative", "positive"]);
         
             exp_div = top_div.append('div').classed('lime explanation', true);
-            exp.show([["0.72 < percent_mobile_money <= 0.85", -836.6972057782621], ["percent_any_elect <= 0.32", -706.6055598713722], ["Population (2019 Census) <= 0.11", 242.7475561834678], ["0.27 < avg_typical_hours_elect_grid <= 0.52", -209.80300273989184], ["0.32 < towns_in_county <= 0.33", -164.44038389552767], ["0.06 < rivers_in_county <= 0.13", -130.06641880516656], ["avg_electricity_use_grid <= 0.26", -118.7598086498246], ["0.29 < avg_household_size <= 0.41", 104.53888328989757], ["0.18 < grid_solar_pct <= 0.34", 76.93897366248957], ["0.31 < Percent_trees <= 0.47", 70.40204855068251]], 1, exp_div);
+            exp.show([["percent_mobile_money > 0.91", 1002.943093491708], ["percent_any_elect <= 0.32", -658.6729730733782], ["avg_typical_hours_elect_grid <= 0.05", -377.06385664260193], ["Population (2019 Census) <= 0.11", 238.63731444476184], ["percent_grid_connect <= 0.14", 181.33635640259484], ["0.32 < towns_in_county <= 0.33", -125.52643599374005], ["avg_electricity_use_grid > 0.53", 104.66221449975184], ["roads_in_county <= 0.21", 95.67421322420634], ["0.02 < Area (km2) <= 0.08", -90.00838829927704], ["avg_household_size <= 0.20", 84.71633325077468]], 1, exp_div);
             
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["percent_mobile_money", "0.82", -836.6972057782621], ["percent_any_elect", "0.31", -706.6055598713722], ["Population (2019 Census)", "0.06", 242.7475561834678], ["avg_typical_hours_elect_grid", "0.31", -209.80300273989184], ["towns_in_county", "0.33", -164.44038389552767], ["rivers_in_county", "0.07", -130.06641880516656], ["avg_electricity_use_grid", "0.12", -118.7598086498246], ["avg_household_size", "0.29", 104.53888328989757], ["grid_solar_pct", "0.19", 76.93897366248957], ["Percent_trees", "0.40", 70.40204855068251]], 1, raw_div);
+            exp.show_raw_tabular([["percent_mobile_money", "1.00", 1002.943093491708], ["percent_any_elect", "0.29", -658.6729730733782], ["avg_typical_hours_elect_grid", "0.00", -377.06385664260193], ["Population (2019 Census)", "0.00", 238.63731444476184], ["percent_grid_connect", "0.10", 181.33635640259484], ["towns_in_county", "0.33", -125.52643599374005], ["avg_electricity_use_grid", "0.58", 104.66221449975184], ["roads_in_county", "0.00", 95.67421322420634], ["Area (km2)", "0.06", -90.00838829927704], ["avg_household_size", "0.18", 84.71633325077468]], 1, raw_div);
         
         </script>
         </body></html>
